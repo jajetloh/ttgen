@@ -12,7 +12,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Development Status :: 5 - Production/Stable"
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research"
 ]
 
 [project.urls]
@@ -21,9 +23,11 @@ Issues = "https://github.com/jajetloh/ttgen/issues"
 
 [project.optional-dependencies]
 dev = [
+  "build",
   "polars",
   "plotly",
-  "pytest"
+  "pytest",
+  "twine"
 ]
 
 [build-system]
