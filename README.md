@@ -6,6 +6,10 @@ This is a pure Python implementation of the Pascal code provided by Tadao Takaok
 
 ## Performance
 
+This implementation provides incredible speed-up compared to the default itertools implementation when generating multiset combinations with many duplicated elements (up to 5000× speed-up in the best tested case).
+
+For cases where all elements are distinct, the default itertools implementation is consistently faster.
+
 ![Graph of benchmarking data](benchmarking/benchmarks.png)
 
 ## Installation
@@ -17,7 +21,7 @@ pip install ttgen
 
 Locally for development via
 ```
-pip install -e .
+pip install -e .[dev]
 ```
 
 ## Publishing
