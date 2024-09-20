@@ -100,5 +100,5 @@ fig.update_layout(
     yaxis2_title='Runtime (s)',
 )
 
-fig.write_html('benchmarks.html')
+fig.write_html('benchmarking/benchmarks.html')
 fig.show('browser')
