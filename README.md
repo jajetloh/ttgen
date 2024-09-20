@@ -4,6 +4,10 @@ Efficient algorithm for generating all unique k-combinations of a set with dupli
 
 This is a pure Python implementation of the Pascal code provided by Tadao Takaoka in the linked article.
 
+## Performance
+
+![Graph of benchmarking data](benchmarking/benchmarks.png)
+
 ## Installation
 
 Via ``pip``
